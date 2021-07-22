@@ -196,7 +196,7 @@ body {
   -webkit-box-align: center;
           align-items: center;
   padding: 0 20px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .card-social svg {
   fill: #a5b5ce;
@@ -399,4 +399,24 @@ body {
   font-family: "Microsoft Yahei", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.links a {
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px 12px;
+    margin: 2px;
+    color: #666;
+    background: #eee;
+    border-radius: 25px;
+    -webkit-transition: color, background .3s;
+    -moz-transition: color, background .3s;
+    -o-transition: color, background .3s;
+    transition: color, background .3s;
+	text-decoration:none;
+}
+
+.links a:hover {
+    color: #fff;
+    background: #ff7f00;
 }
