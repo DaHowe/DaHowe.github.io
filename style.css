@@ -18,12 +18,12 @@ body {
 }
 @media (max-width: 767px) {
     .card{
-        max-width: 1340px;
+        max-width: 60%;
     }
 }
 @media (min-width: 767px){
     .card{
-         max-width: 340px;
+         max-width: 1340px;
     }
 }
 
