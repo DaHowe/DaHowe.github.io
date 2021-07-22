@@ -420,3 +420,8 @@ body {
     color: #fff;
     background: #ff7f00;
 }
+
+.tongji a {
+	text-decoration:none;
+	color: #666;
+}
