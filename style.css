@@ -24,37 +24,6 @@ body {
   max-width: 1340px;
   }
  }
-/* 小屏幕（平板，大于等于 768px） */
-@media screen and (min-width: 768px) {
-  /* 你的样式 */
-  .card {
-  max-width: 50%;
-  }
-}
-
-/* 中等屏幕（桌面显示器，大于等于 992px） */
-@media screen and (min-width: 992px) {
-  /* 你的样式 */
-  .card {
-  max-width: 1340px;
-  }
-}
-
-/* 大屏幕（大桌面显示器，大于等于 1200px） */
-@media screen and (min-width: 1200px) {
-/* 你的样式 */
-  .card {
-  max-width: 1340px;
-  }
-}
-
-/*  769px到992px之间  */
-@media (min-width:768px) and (max-width: 992px){
-  /* 你的样式 */
-  .card {
-  max-width: 1340px;
-  }
-}
 
 .card {
   max-width: 1340px;
