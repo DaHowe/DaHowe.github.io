@@ -17,13 +17,6 @@ body {
   padding: 20px;
 }
 
-/* 小于等于 769px */
- @media (max-width: 767px) {
-/* 你的样式 */
-   .card {
-  max-width: 1340px;
-  }
- }
 
 .card {
   max-width: 1340px;
